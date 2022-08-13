@@ -1,0 +1,148 @@
+.pecas__novas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+    background: #FFFFFF;
+    margin-top: 5rem;
+}
+
+.pecas__novas__principal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+.pecas__novas__img {
+    width: 20vw;
+    height: 30vh;
+}
+
+.icone__youtube {
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.img__youtube {
+    width: 5vw;
+    height: 8vh;
+}
+
+.icone__texto {
+    padding-left: 1rem;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+}
+
+.video {
+    padding: 0 1rem 0 1rem;
+    width: 40vw;
+    height: 40vh;
+}
+
+@media screen and (min-width: 0) {
+    .pecas__novas {
+        padding: 4rem 0 0 0rem;
+    }
+    .pecas__novas__principal {
+        width: calc(50% - 5rem);
+    }
+    .pecas__novas__img {
+        width: 12rem;
+        height: 12rem;
+    }
+    .icone__youtube {
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        display: flex;
+        margin-left: 1rem;
+    }
+    
+    .img__youtube {
+        width: 4rem;
+        height: 3rem;
+    }
+    
+    .icone__texto {
+        padding-left: 1rem;
+        color: rgb(15, 15, 15);
+        font-weight: 600;
+    }
+    .video {
+        padding: 0 1rem 2rem 1rem;
+        width: 100vw;
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pecas__novas__principal {
+        width: calc(30% - 3.5rem);
+    }
+    .pecas__novas__img {
+        width: 15rem;
+        height: 15rem;
+    }
+    .icone__youtube {
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+        display: flex;
+    }
+    
+    .img__youtube {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .icone__texto {
+        padding-left: 1rem;
+        color: rgb(15, 15, 15);
+        font-weight: 600;
+    }
+    
+    .video {
+        padding: 0 1rem 0 1rem;
+        width: 100vw;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pecas__novas__principal {
+        width: calc(25% - 5rem);
+    }
+    .pecas__novas__img {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 2rem;
+    }
+    .icone__youtube {
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+        display: flex;
+        margin-left: 2.5rem;
+    }
+    
+    .img__youtube {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+    .icone__texto {
+        padding-left: 1rem;
+        color: rgb(15, 15, 15);
+        font-weight: 600;
+    }
+    
+    .video {
+        margin: 0 2rem;
+        width: 40rem;
+        height: 20rem;
+    }
+}
