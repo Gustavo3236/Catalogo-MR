@@ -1,6 +1,6 @@
 .quem-somos {
     text-align: center;
-    padding: 5rem;
+    padding: 5rem 5rem 2rem 5rem;
 }
 
 .quem-somos__titulo {
@@ -11,6 +11,7 @@
     font-size: 1.2rem;
     font-weight: 100;
     color: #1f1f1f;
+    padding-top: 1rem;
 }
 
 .pessoas {
@@ -35,7 +36,7 @@
 }
 
 .pessoa__imagem--1 {
-    background-image: url("../img/icone-foto-boneco.jpg");
+    background-image: url("../img/suzi-catalogo.jpg");
 }
 
 .pessoa__imagem--2 {
@@ -58,12 +59,43 @@
     color: #1f1f1f;
 }
 
+.quem-somos--loja {
+    text-align: center;
+}
+
+.quem-somos__descricao--loja {
+    font-size: 1.5rem;
+}
+
+.pessoa-imagem__loja {
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto;
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pessoa__imagem__loja--1 {
+    background-image: url("../img/loja-catalogo.jpg");
+}
+
 @media screen and (min-width: 0) {
     .pessoas {
         flex-direction: column;
     }
     .pessoa {
         margin-bottom: 2rem;
+    }
+    .pessoa-imagem__loja {
+        width: 22.5rem;
+        height: 22.5rem;
+        margin: 0 auto;
+        border-radius: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -73,5 +105,20 @@
     }
     .pessoa {
         margin-bottom: 0;
+    }
+    .pessoa-imagem__loja {
+        width: 40rem;
+        height: 40rem;
+        margin: 0 auto;
+        border-radius: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .quem-somos__descricao {
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #1f1f1f;
+        padding-top: 1rem;
     }
 }

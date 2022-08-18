@@ -19,6 +19,13 @@
     height: 30vh;
 }
 
+.pecas__descricao {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #af905b;
+    padding-left: 3rem;
+}
+
 .icone__youtube {
     align-items: center;
     text-align: center;
@@ -54,6 +61,12 @@
         width: 12rem;
         height: 12rem;
     }
+    .pecas__descricao {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #af905b;
+        padding-left: 3rem;
+    }
     .icone__youtube {
         align-items: center;
         text-align: center;
@@ -86,6 +99,12 @@
     .pecas__novas__img {
         width: 15rem;
         height: 15rem;
+    }
+    .pecas__descricao {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #af905b;
+        padding-left: 3rem;
     }
     .icone__youtube {
         align-items: center;
@@ -121,10 +140,16 @@
         height: 15rem;
         margin-left: 2rem;
     }
+    .pecas__descricao {
+        color: #af905b;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding-left: 3rem;
+    }
     .icone__youtube {
         align-items: center;
         text-align: center;
-        padding: 0.5rem;
+        padding: 0 0.5rem;
         display: flex;
         margin-left: 2.5rem;
     }
