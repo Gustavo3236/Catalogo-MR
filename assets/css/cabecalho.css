@@ -28,8 +28,9 @@
     }
 
     .logo {
-        width: 100vw;
-        height: 25vh;
+        width: 25rem;
+        height: 10rem;
+        padding: 0 1rem;
     }
 }
 
@@ -40,7 +41,7 @@
     }
 
     .logo {
-        width: 50rem;
+        width: 55rem;
         height: 25rem;
         padding: 2.5rem;
     }
@@ -48,8 +49,8 @@
 
 @media screen and (min-width: 1024px) {
     .logo {
-        width: 60vw;
-        height: 45vh;
+        width: 50rem;
+        height: 25rem;
     }
     .cabecalho {
         justify-content: center;
