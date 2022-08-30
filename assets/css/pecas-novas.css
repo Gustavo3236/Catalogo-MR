@@ -85,8 +85,14 @@
         color: rgb(15, 15, 15);
         font-weight: 600;
     }
+
+    .div__video {
+        align-items: center;
+        text-align: center;
+    }
+
     .video {
-        padding: 0 1rem 2rem 1rem;
+        padding: 2rem 0.5rem 0 0.5rem;
         width: 100vw;
         height: 20rem;
     }
@@ -123,10 +129,15 @@
         color: rgb(15, 15, 15);
         font-weight: 600;
     }
+
+    .div__video {
+        align-items: center;
+        text-align: center;
+    }
     
     .video {
-        padding: 0 1rem 0 1rem;
-        width: 100vw;
+        padding: 2rem 1rem 0 1rem;
+        width: 45rem;
         height: 25rem;
     }
 }
@@ -164,9 +175,14 @@
         color: rgb(15, 15, 15);
         font-weight: 600;
     }
-    
+
+    .div__video {
+        align-items: center;
+        text-align: center;
+    }
+
     .video {
-        margin: 0 2rem;
+        margin: 4rem 0 1rem 0rem;
         width: 40rem;
         height: 20rem;
     }

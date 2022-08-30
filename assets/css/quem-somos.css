@@ -1,6 +1,6 @@
 .quem-somos {
     text-align: center;
-    padding: 5rem 5rem 2rem 5rem;
+    padding: 0 5rem 0rem 5rem;
 }
 
 .quem-somos__titulo {
@@ -97,9 +97,39 @@
         background-size: cover;
         background-position: center;
     }
+    .quem-somos__descricao {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }
+    .pessoa {
+        margin-bottom: 0;
+    }
+    .pessoa-imagem__loja {
+        width: 40rem;
+        height: 40rem;
+        margin: 0 auto;
+        border-radius: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .quem-somos__descricao {
+        font-size: 2rem;
+        font-weight: 100;
+        color: #1f1f1f;
+        padding-top: 1rem;
+    }
+    .quem-somos__descricao--loja {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .pessoas {
         flex-direction: row;
     }
@@ -120,5 +150,8 @@
         font-weight: 100;
         color: #1f1f1f;
         padding-top: 1rem;
+    }
+    .quem-somos__descricao--loja {
+        font-size: 1.5rem;
     }
 }

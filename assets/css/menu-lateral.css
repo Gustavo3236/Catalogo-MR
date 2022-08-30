@@ -1,3 +1,23 @@
+.botao__idioma {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.idioma__link {
+    text-decoration: none;
+}
+
+.idioma__botao {
+    background: transparent;
+    border: none;
+    padding: 0 2rem;
+}
+
+.idioma__img {
+    width: 3rem;
+    height: 3rem;
+}
+
 .div__menu {
     padding: 0rem 1rem;
     position: fixed;
